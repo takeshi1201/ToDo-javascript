@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>ToDo</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <div class="input-area">
+      <input id="add-text" type="text" placeholder="TODO追加" />
+      <button id="add-btn">追加</button>
+    </div>
+    <div class="no-area">
+      <p>未完了リスト</p>
+      <div>
+        <ul id="no-list"></ul>
+      </div>
+    </div>
+    <div class="yes-area">
+      <p>完了</p>
+      <ul id="yes-list"></ul>
+    </div>
 
-<body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
-</body>
-
+    <script src="src/index.js"></script>
+  </body>
 </html>

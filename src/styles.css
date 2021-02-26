@@ -1,3 +1,48 @@
 body {
   font-family: sans-serif;
 }
+button {
+  margin: 0 0.5rem;
+}
+
+li {
+  margin-right: 20px;
+}
+
+.input-area {
+  width: 400px;
+  background-color: aqua;
+  margin: 10px;
+  padding: 20px;
+}
+
+.no-area {
+  width: 400px;
+  background-color: brown;
+  color: white;
+  font-weight: 600;
+  min-height: 200px;
+  padding: 1rem;
+  margin: 10px;
+}
+.no-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.yes-area {
+  width: 400px;
+  background-color: rgb(191, 206, 55);
+  color: white;
+  font-weight: 600;
+  min-height: 200px;
+  padding: 1rem;
+  margin: 10px;
+}
+
+.yes-item {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
